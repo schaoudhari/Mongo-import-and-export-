@@ -1,0 +1,5 @@
+.env
+node_modules/
+exports/*
+!exports/.gitkeep
+.DS_Store

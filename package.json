@@ -1,0 +1,15 @@
+{
+  "name": "plactu-mongodb-transfer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Export/import MongoDB collections filtered by a configurable collection-name prefix.",
+  "main": "export-mongodb.js",
+  "scripts": {
+    "export": "node export-mongodb.js",
+    "import": "node import-mongodb.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0"
+  }
+}
